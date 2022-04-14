@@ -1,4 +1,4 @@
-# Quick installations for different tools on linux systems 🚀
+# Quick installations for linux systems 🚀
 
 Every installation line is linked to a raw \*.sh file in this repository that runs different neccessary steps.  
 I'm not the owner of the ultimately destinations and the commands are only acting as intermediaries.  
