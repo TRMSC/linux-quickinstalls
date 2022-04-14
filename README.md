@@ -27,6 +27,6 @@ picture: [pixabay](https://pixabay.com/de/vectors/wolke-m%c3%a4nner-himmel-mensc
 You can get the latest buster version on [raspberrypi.com](https://www.raspberrypi.com/software/operating-systems/). If you use the Raspberry Pi Imager you can find the buster versions by choosing "Raspberry Pi OS (other)".  
 
 Installation:  
-``comand...``  
-[Inspect the script](...)  
+``curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpitv.sh | bash``  
+[Inspect the script 🔍](https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpitv.sh)  
 [RPiOS-Repository](https://github.com/FD-/RPiPlay) - Thanks to [FD-](https://github.com/FD-) for that great stuff! 
