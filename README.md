@@ -36,3 +36,8 @@ curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpitv.sh |
 [RPiOS-Repository](https://github.com/FD-/RPiPlay) - Thanks to [FD-](https://github.com/FD-) for that great stuff!  
 
 [![Maintainer](https://img.shields.io/badge/Issues-yellow)](https://github.com/FD-/RPiPlay/issues)
+
+
+---
+
+### More quick installations will come... ✨
