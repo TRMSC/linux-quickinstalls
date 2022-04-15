@@ -15,7 +15,7 @@ sudo apt-get install libssl-dev -y
 mkdir build
 cd build
 cmake ..
-make -j
+make -j4
 sudo make install
 echo ""
 echo -e "\033[32m# ------------------- #\033[0m"
