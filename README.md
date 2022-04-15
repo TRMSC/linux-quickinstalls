@@ -21,10 +21,12 @@ picture: [pixabay](https://pixabay.com/de/vectors/wolke-m%c3%a4nner-himmel-mensc
 ![Maintainer](https://img.shields.io/badge/Raspberry_Pi-white)
 ![Maintainer](https://img.shields.io/badge/Apple_TV-white)
 
-> __Please note:__  
-> This installation works only on __Raspberry Pi OS Buster (Legacy)__ and not on Bullseye yet.  
+> RPiOS __```works only on Raspberry Pi OS Buster (Legacy)```__ and not on Bullseye yet.  
+> You can choose __Buster light or the desktop version__.
 
-You can get the latest buster version on [raspberrypi.com](https://www.raspberrypi.com/software/operating-systems/). If you use the Raspberry Pi Imager you can find the buster versions by choosing "Raspberry Pi OS (other)".  
+Get the latest buster versions (light and desktop) on [raspberrypi.com](https://www.raspberrypi.com/software/operating-systems/). If you use the Raspberry Pi Imager you can find the buster versions by choosing "Raspberry Pi OS (other)".  
+
+> This installation was successfully tested on __```Raspberry 3b+ and 4b```__
 
 __Installation:__  
 ```bash
