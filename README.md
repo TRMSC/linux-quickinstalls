@@ -37,6 +37,8 @@ curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay.sh
 
 [![Maintainer](https://img.shields.io/badge/Issues-yellow)](https://github.com/FD-/RPiPlay/issues)
 
+### Optional addons for RPiPlay
+
 #### Start RPiPlay automatically:  
 ```bash
 sudo wget -O /etc/init.d/rpiplay-boot.sh https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/src/rpiplay-boot.sh
