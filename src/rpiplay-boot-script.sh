@@ -17,7 +17,7 @@ case "$1" in
                 exit
             else
                 echo "Start RPiPlay..."
-                /usr/local/bin/rpiplay&
+                /usr/local/bin/rpiplay
             fi
         ;;
     stop)
