@@ -12,20 +12,11 @@
 
 case "$1" in
     start)
-        REPLY=""
-        read -p "Type anything and press enter to skip RPiPlay (5sec)..." -t 5
-
-        if [ -z $REPLY ]
-        then
             echo "Start RPiPlay..."
-            /usr/local/bin/rpiplay
-        else
-            echo "Skip RPiPlay..."
-        fi
+            /usr/local/bin/rpiplay&
         ;;
     stop)
         echo "Close RPiPlay..."
-        # Beende Programm
         killall rpiplay
         ;;
     *)
