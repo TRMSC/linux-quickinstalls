@@ -16,7 +16,7 @@ picture: [pixabay](https://pixabay.com/de/vectors/wolke-m%c3%a4nner-himmel-mensc
 
 ---
 
-### RPiPlay - Raspberry Pi as Apple TV
+## RPiPlay - Raspberry Pi as Apple TV
 
 ![Maintainer](https://img.shields.io/badge/Raspberry_Pi-white)
 ![Maintainer](https://img.shields.io/badge/Apple_TV-white)
@@ -37,7 +37,11 @@ curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay.sh
 
 [![Maintainer](https://img.shields.io/badge/Issues-yellow)](https://github.com/FD-/RPiPlay/issues)
 
-### Optional addons for RPiPlay
+---
+
+### Optional: Autark mode for RPiPlay on your raspberry
+
+### Please note: You only can start your device regulary via ssh when you are doing the following steps! Make shure you prepared a ssh connection before preparing the following 'autark mode'!
 
 #### Start RPiPlay automatically:  
 ```bash
@@ -53,6 +57,12 @@ sudo nano /etc/fstab
 > __Add 'ro' in the ext4-line like this:__  
 > _ext4 abc,xyz_ __-->__ _ext4 ro,abc,xyz_  
 > __Leave with CTRL+O - Enter - CTRL+X__ 
+
+#### Start your raspberry regulary when you took configurations for the autark mode
+
+> To start the system regualary you have to start a ssh connection.  
+> Type ```sudo killall rpiplay``` to leave RPiPlay  
+> Type ```lsblk``` to check the devices and ```sudo mount -o remount,rw mmcblk0 /``` (mmcblk0 could be another value) to remount your filesystem as "read and write" for that session to make updates for example.
 
 ---
 
