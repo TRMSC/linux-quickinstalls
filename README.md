@@ -28,7 +28,7 @@ Get the latest buster versions (light and desktop) on [raspberrypi.com](https://
 
 > This installation was successfully tested on __```Raspberry 3b+ and 4b```__
 
-__Installation:__  
+#### Installation:  
 ```bash
 curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay.sh | bash  
 ```
@@ -37,6 +37,20 @@ curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay.sh
 
 [![Maintainer](https://img.shields.io/badge/Issues-yellow)](https://github.com/FD-/RPiPlay/issues)
 
+#### Start RPiPlay automatically:  
+```bash
+sudo wget -O /etc/init.d/rpiplay-boot.sh https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/src/rpiplay-boot.sh
+```
+[Inspect the script 🔍](https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/src/rpiplay-boot.sh)  
+Thanks to [tutorials-raspberrypi.de](https://tutorials-raspberrypi.de/raspberry-pi-autostart-programm-skript/)!
+
+#### Prepare your system for turning off without shutdown:  
+```bash
+sudo nano /etc/fstab
+```
+> __Add 'ro' in the ext4-line like this:__  
+> _ext4 abc,xyz_ __-->__ _ext4 ro,abc,xyz_  
+> __Leave with CTRL+O - Enter - CTRL+X__ 
 
 ---
 
