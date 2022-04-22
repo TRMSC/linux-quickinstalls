@@ -41,7 +41,7 @@ curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay.sh
 
 #### Start RPiPlay automatically:  
 ```bash
-sudo wget -O /etc/init.d/rpiplay-boot.sh https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/src/rpiplay-boot.sh
+curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/rpiplay-standalone/rpiplay-boot.sh | bash
 ```
 [Inspect the script 🔍](https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/src/rpiplay-boot.sh)  
 Thanks to [tutorials-raspberrypi.de](https://tutorials-raspberrypi.de/raspberry-pi-autostart-programm-skript/)!
