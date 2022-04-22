@@ -30,7 +30,7 @@ Get the latest buster versions (light and desktop) on [raspberrypi.com](https://
 
 __Installation:__  
 ```bash
-curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpitv.sh | bash  
+curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay.sh | bash  
 ```
 [Inspect the script 🔍](https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpitv.sh)  
 [RPiOS-Repository](https://github.com/FD-/RPiPlay) - Thanks to [FD-](https://github.com/FD-) for that great stuff!  
