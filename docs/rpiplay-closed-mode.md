@@ -10,6 +10,7 @@ That means that RPiPlay starts automatically after booting and you can turn off 
 ### Please note: You will only be able to start your device regulary via ssh when you are doing the following steps! Make shure you prepared a ssh connection before establishing the following 'self-sufficient mode'!
 
 #### Setup RPiPlay to start automatically:  
+_Please do __not__ make a reboot after that!_
 ```bash
 curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/rpiplay-standalone/rpiplay-boot.sh | bash
 ```
