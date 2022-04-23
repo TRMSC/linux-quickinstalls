@@ -28,7 +28,7 @@ sudo nano /etc/fstab
 
 ### Finished! 
 
-#### Start your raspberry regulary when you took configurations for the self-sufficient mode
+#### Start your raspberry regulary when you took configurations for the self-sufficient mode:
 
 > To start the system regualary you have to start a ssh connection.  
 > Type ```sudo killall rpiplay``` to leave RPiPlay  
