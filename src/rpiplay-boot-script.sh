@@ -12,13 +12,8 @@
 
 case "$1" in
     start)
-            if (sudo dmesg | grep keyboard | grep input) 
-            then 
-                exit
-            else
-                echo "Start RPiPlay..."
-                /usr/local/bin/rpiplay
-            fi
+        echo "Start RPiPlay..."
+        /usr/local/bin/rpiplay
         ;;
     stop)
         echo "Close RPiPlay..."
