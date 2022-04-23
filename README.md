@@ -43,7 +43,7 @@ curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay.sh
 
 ### Please note: You only can start your device regulary via ssh when you are doing the following steps! Make shure you prepared a ssh connection before preparing the following 'autark mode'!
 
-#### Start RPiPlay automatically:  
+#### Setup RPiPlay to start automatically:  
 ```bash
 curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/rpiplay-standalone/rpiplay-boot.sh | bash
 ```
