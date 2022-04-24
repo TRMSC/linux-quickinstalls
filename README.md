@@ -37,7 +37,7 @@ curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay.sh
 
 [![Maintainer](https://img.shields.io/badge/Issues-yellow)](https://github.com/FD-/RPiPlay/issues)
 
-### If you want to boot automatically to RPiPlay and turn it off without doing shutdowns, check out the documentation for the 'self-sufficiant mode'. 
+### If you want to boot automatically to RPiPlay and turn it off without doing shutdowns, check out the [documentation for the standalone mode](https://github.com/TRMSC/linux-quickinstalls/blob/main/docs/rpiplay-standalone.md).  
 
 ---
 
