@@ -26,17 +26,18 @@ picture: [pixabay](https://pixabay.com/de/vectors/wolke-m%c3%a4nner-himmel-mensc
 
 Get the latest buster versions (light and desktop) on [raspberrypi.com](https://www.raspberrypi.com/software/operating-systems/). If you use the Raspberry Pi Imager you can find the buster versions by choosing "Raspberry Pi OS (other)".  
 
-> This installation was successfully tested on __```Raspberry 3b+ and 4b```__
+> This installation was successfully tested on __```Raspberry Zero, 3b+ and 4b```__
 
-__Installation:__  
+#### Installation:  
 ```bash
-curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpitv.sh | bash  
+curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay.sh | bash  
 ```
 [Inspect the script 🔍](https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpitv.sh)  
 [RPiOS-Repository](https://github.com/FD-/RPiPlay) - Thanks to [FD-](https://github.com/FD-) for that great stuff!  
 
 [![Maintainer](https://img.shields.io/badge/Issues-yellow)](https://github.com/FD-/RPiPlay/issues)
 
+### If you want to boot automatically to RPiPlay and turn it off without doing shutdowns, check out the documentation for the 'self-sufficiant mode'. 
 
 ---
 
