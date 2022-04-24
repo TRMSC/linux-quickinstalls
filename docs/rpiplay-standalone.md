@@ -22,9 +22,9 @@ sudo raspi-config
 
 #### Setup RPiPlay to start automatically:  
 ```bash
-curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/rpiplay-standalone/rpiplay-boot.sh | bash
+curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay-boot.sh | bash
 ```
-[Inspect the script 🔍](https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/src/rpiplay-boot.sh)  
+[Inspect the script 🔍](https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay-boot.sh)  
 Thanks to [tutorials-raspberrypi.de](https://tutorials-raspberrypi.de/raspberry-pi-autostart-programm-skript/)!
 
 _Please go on with the next step __without__ making a reboot here!_  
