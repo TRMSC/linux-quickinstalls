@@ -27,7 +27,7 @@ curl https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay-bo
 [Inspect the script 🔍](https://raw.githubusercontent.com/TRMSC/linux-quickinstalls/main/rpiplay-boot.sh)  
 Thanks to [tutorials-raspberrypi.de](https://tutorials-raspberrypi.de/raspberry-pi-autostart-programm-skript/)!
 
-_Please go on with the next step __without__ making a reboot here!_  
+> _Please go on with the next step __without__ making a reboot here!_  
 
 #### Prepare your system for turning off without shutdown:  
 ```bash
