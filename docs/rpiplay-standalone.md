@@ -2,12 +2,11 @@
 
 ---
 
-## Self-sufficient mode for RPiPlay
+## Standalone mode for RPiPlay
 
-If you had installed [RPiPlay](https://github.com/TRMSC/linux-quickinstalls#rpiplay---raspberry-pi-as-apple-tv) you can make the following changes to use your device in a closed, self-sufficient mode.
-That means that RPiPlay starts automatically after booting and you can turn off your raspberry without the need for shutdowns. So you don't need a keyboard or something else and you dont' have to worry about breaks within your filesystem.
+If you had installed [RPiPlay](https://github.com/TRMSC/linux-quickinstalls#rpiplay---raspberry-pi-as-apple-tv) you can make the following changes to use your device in a closed, self-sufficient mode. That means that RPiPlay starts automatically after booting and you can turn off your raspberry without the need for shutdowns. So you don't need a keyboard or something else and you don't have to worry about breaks within your filesystem.
 
-### Please note: You will only be able to start your device regulary via ssh in future by establishing the 'self-sufficient mode'. Make shure you prepared a ssh connection (step 1) before continuing with the other steps!
+### Please note: You will only be able to start your device regulary via ssh in future by establishing the standalone mode. Make shure you prepared a ssh connection (step 1) before continuing with the other steps!
 
 #### Prepare ssh using
 ```bash
@@ -40,7 +39,7 @@ sudo nano /etc/fstab
 
 ### Finished! 
 
-#### If you want to start your device regulary eg for making updates:
+#### If you want to start your device regulary e.g. for making updates:
 
 > To start the system regualary you have to start a ssh connection.  
 > Type ```sudo killall rpiplay``` to leave RPiPlay  
