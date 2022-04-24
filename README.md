@@ -26,7 +26,7 @@ picture: [pixabay](https://pixabay.com/de/vectors/wolke-m%c3%a4nner-himmel-mensc
 
 Get the latest buster versions (light and desktop) on [raspberrypi.com](https://www.raspberrypi.com/software/operating-systems/). If you use the Raspberry Pi Imager you can find the buster versions by choosing "Raspberry Pi OS (other)".  
 
-> This installation was successfully tested on __```Raspberry 3b+ and 4b```__
+> This installation was successfully tested on __```Raspberry Zero, 3b+ and 4b```__
 
 #### Installation:  
 ```bash
